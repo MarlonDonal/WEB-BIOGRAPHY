@@ -4,13 +4,16 @@ body{
 
 
 .marlon{
-    width: 400px;
-    height: 400px;
+    width: 300x;
+    height: 300px;
     margin-left: 60%; 
     position: absolute; 
     border-radius: 50%;
+    border: yellow 3px solid;
+    margin-top: 50px;
 
 }
+    
 
 .below{
     height: 400px;
@@ -25,27 +28,44 @@ body{
 }
 .text1{
     position: absolute;
-    color: #fff;
+    color:#fff;
     font-size: 3vw;
     font-family: sans-serif;
     transform: translate(156px,132px);
+    
 }
 .text2{
     position: absolute;
-    color: #fff;
+    color:lightblue;
     font-size: 1.5vw;
     font-family: sans-serif;
     transform: translate(156px,185px);
+    flex-direction: column;
+    display: flex;
 }
 
 .button{
-    height: 37px;
-    width: 90px;
-    border-radius: 10px;
-    background-color: rgb(255, 196, 0);
-    transform: translate(-570px, 64px);
-    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+     
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50px;
     cursor: pointer;
+     
+
+     
+
+    
+   
+   
+   
+   
+    
+
 }
 
 .text3 {
@@ -76,6 +96,26 @@ body{
     height: 40px;
     width: 100%;
     background-color: #000;
+}
+
+@media screen and (max-width: 444px ) {
+    .footer {
+        background-color: red;
+    }
+    .marlon{
+        max-width:100px;
+    }
+    .below{
+
+    max-width: 100px;
+    }
+    .text2{
+
+    max-width: 100px;
+    }
+    .button{
+        max-width: 100px;
+    }
 }
 
 
